@@ -1,0 +1,80 @@
+
+@api = http://localhost:3000/reportes
+### obtiene todos los reportes
+GET {{api}}
+
+### 
+POST {{api}}
+Content-Type: application/json
+
+{
+   "ID_Supervisor": "24434",
+    "Supervisor_name": "ggdgsdg ",
+    "Line_number": "L13",
+    "Date": "2024-7-23",
+    "Serial_number": "asfainf",
+    "T_Con": 1,
+    "Frontal": 0,
+    "Accesory": 0,
+    "Remote_control": 0,
+    "FCC_cable": 0,
+    "LV_cable": 1,
+    "Bottom_C": 1,
+    "Side_C": 1,
+    "Stand_base": 1,
+    "Box": 1,
+    "Main_board": 1,
+    "Terminal": 1,
+    "INPUT_label": 1,
+    "WiFi_antenna": 1,
+    "Energy_label": 1,
+    "SN_label": 1,
+    "WiFi_board": 1,
+    "Open_cell": 1,
+    "RC_cable_button_panel": 1,
+    "Name_Plate": 1
+}
+
+### Por ID
+GET {{api}}/1
+
+
+### Delete
+DELETE {{api}}/6
+
+### Get all reportes
+GET  {{api}}/count
+
+### 
+PUT {{api}}/7
+Content-Type: application/json
+
+{
+   "ID_Supervisor": "8787",
+    "Supervisor_name": "el fff",
+    "Line_number": "L9",
+    "Date": "2024-7-23",
+    "Serial_number": "558284628",
+    "T_Con": 1,
+    "Frontal": 0,
+    "Accesory": 0,
+    "Remote_control": 0,
+    "FCC_cable": 0,
+    "LV_cable": 1,
+    "Bottom_C": 1,
+    "Side_C": 1,
+    "Stand_base": 1,
+    "Box": 1,
+    "Main_board": 1,
+    "Terminal": 1,
+    "INPUT_label": 1,
+    "WiFi_antenna": 1,
+    "Energy_label": 1,
+    "SN_label": 1,
+    "WiFi_board": 1,
+    "Open_cell": 1,
+    "RC_cable_button_panel": 1,
+    "Name_Plate": 1
+}
+
+
